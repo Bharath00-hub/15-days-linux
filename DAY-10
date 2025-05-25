@@ -1,0 +1,9 @@
+##  Day 10: User Management
+
+🔹 Commands:
+
+whoami                    # Current user
+id                        # User ID and group ID
+sudo adduser testuser     # Add new user
+sudo passwd testuser      # Set password
+sudo deluser testuser     # Remove user
