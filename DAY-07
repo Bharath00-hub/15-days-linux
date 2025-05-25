@@ -1,0 +1,9 @@
+## Day 7: System Information
+
+🔹 Commands:
+
+uname -a                  # Kernel info
+hostname                  # System hostname
+uptime                    # System up time
+top                       # Running processes
+free -h                   # Memory usage
