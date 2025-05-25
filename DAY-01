@@ -1,5 +1,22 @@
-Day 1: Introduction & Navigation in Linux
-Welcome to Day 1 of your Linux journey! Today, we’ll cover the basic commands to interact with the terminal, navigate directories, and understand the Linux file system structure.
+
+
+# 15 Days of Linux Basics
+
+Welcome to **15 Days of Linux** – a beginner-friendly guide to mastering essential Linux commands, day by day.
+
+---
+
+## Day 1: Introduction & Navigation in Linux
+
+### 🔹 Commands:
+
+pwd        # Print current directory
+ls         # List files and directories
+cd ..      # Go up one directory
+cd /       # Go to root
+cd ~       # Go to home directory
+clear      # Clear terminal screen
+exit       # Close terminal session
 
 
 
