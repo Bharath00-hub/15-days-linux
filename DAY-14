@@ -1,0 +1,12 @@
+## Day 14: Shell Scripting Basics
+
+🔹 Create script:
+nano hello.sh
+
+🔹 Add to file:
+#!/bin/bash
+echo "Hello, Linux!"
+
+🔹 Run it:
+chmod +x hello.sh
+./hello.sh
