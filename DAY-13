@@ -1,0 +1,9 @@
+## Day 13: Environment Variables
+
+🔹 Commands:
+
+echo $HOME                # Show home directory
+echo $PATH                # Show executable path
+export MYVAR=hello        # Set variable
+printenv                  # List env variables
+unset MYVAR               # Remove variable
