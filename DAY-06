@@ -1,0 +1,8 @@
+## Day 6: Searching and Finding Files
+
+🔹 Commands:
+
+find . -name "*.log"      # Find all .log files
+locate passwd             # Locate files (run sudo updatedb first)
+grep "error" logfile      # Search keyword in file
+grep -r "main()" .        # Recursive search
