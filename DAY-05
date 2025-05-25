@@ -1,0 +1,8 @@
+## Day 5: File Permissions
+
+🔹 Commands:
+
+ls -l                     # View file permissions
+chmod +x script.sh        # Make file executable
+chmod 755 file            # Set rwxr-xr-x permissions
+chown user:group file     # Change file ownership
