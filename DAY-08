@@ -1,0 +1,8 @@
+## Day 8: Package Management (Debian-based)
+
+🔹 Commands:
+
+sudo apt update           # Update package lists
+sudo apt upgrade          # Upgrade packages
+sudo apt install tree     # Install package
+sudo apt remove package   # Uninstall package
