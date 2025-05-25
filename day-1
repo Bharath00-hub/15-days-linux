@@ -47,6 +47,7 @@ Closes the terminal session or logs out from a remote SSH session.
 
 ✅ Summary:
 Command	Description
+
 pwd	Show current directory
 ls	List contents
 cd	Navigate to another directory
