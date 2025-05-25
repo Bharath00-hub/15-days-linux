@@ -1,0 +1,10 @@
+## Day 3: File and Directory Management
+
+🔹 Commands:
+
+cp file1 file2            # Copy file
+cp -r dir1 dir2           # Copy directory recursively
+mv old new                # Rename or move files
+rm file                   # Delete file
+rm -r folder              # Delete directory recursively
+rm -rf *                  # ⚠️ Delete everything (dangerous)
