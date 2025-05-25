@@ -1,0 +1,9 @@
+## Day 4: Viewing File Contents
+
+🔹 Commands:
+
+cat file.txt              # Show content
+less file.txt             # View with scroll
+head file.txt             # First 10 lines
+tail file.txt             # Last 10 lines
+tail -f /var/log/syslog   # Real-time log view
