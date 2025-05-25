@@ -1,0 +1,10 @@
+## Day 9: File Compression & Archiving
+
+🔹 Commands:
+
+tar -cvf archive.tar file1 file2     # Create tar
+tar -xvf archive.tar                 # Extract tar
+gzip file                            # Compress
+gunzip file.gz                       # Decompress
+zip file.zip file.txt                # Create zip
+unzip file.zip                       # Extract zip
