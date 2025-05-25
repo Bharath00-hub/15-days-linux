@@ -1,0 +1,9 @@
+## Day 2: File and Directory Creation
+
+🔹 Commands:
+
+touch file.txt            # Create a file
+mkdir myfolder            # Create a directory
+ls -l                     # Long listing format
+ls -a                     # Show hidden files
+tree                      # View directory tree (install with sudo apt install tree)
