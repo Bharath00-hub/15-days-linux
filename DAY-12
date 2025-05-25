@@ -1,0 +1,8 @@
+## Day 12: Networking Basics
+🔹 Commands:
+
+ip a                      # View IP addresses
+ping google.com           # Check connection
+hostname -I               # Show local IP
+netstat -tuln             # List open ports
+curl ifconfig.me          # Public IP
