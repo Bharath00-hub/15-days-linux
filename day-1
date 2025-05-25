@@ -22,7 +22,6 @@ ls -la — Combined long + all
 
 🔹 3. cd – Change Directory
   
-cd <directory_name>
 Description:
 Used to move to another directory.
 
