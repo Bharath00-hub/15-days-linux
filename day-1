@@ -1,0 +1,55 @@
+Day 1: Introduction & Navigation in Linux
+
+🔹 1. pwd – Print Working Directory
+
+Description:
+Displays the full path of your current working directory. Helpful to know where you are in the system.
+
+🔹 2. ls – List Directory Contents
+
+Description:
+Lists files and folders in the current directory.
+
+Useful Options:
+
+ls -l — Long format (shows permissions, owner, size, etc.)
+
+ls -a — Includes hidden files (those starting with .)
+
+ls -lh — Human-readable sizes
+
+ls -la — Combined long + all
+
+🔹 3. cd – Change Directory
+  
+cd <directory_name>
+Description:
+Used to move to another directory.
+
+Examples:
+
+cd Documents         # Move into the Documents folder
+cd ..                # Go one directory up
+cd /                 # Go to root directory
+cd ~                 # Go to home directory
+  
+🔹 4. clear – Clear Terminal Screen
+Usage:
+
+clear
+Description:
+Clears the clutter in your terminal by wiping the screen.
+
+🔹 5. exit – Exit Terminal Session
+Usage:
+exit
+Description:
+Closes the terminal session or logs out from a remote SSH session.
+
+✅ Summary:
+Command	Description
+pwd	Show current directory
+ls	List contents
+cd	Navigate to another directory
+clear	Clean the terminal screen
+exit	Close terminal or SSH session
