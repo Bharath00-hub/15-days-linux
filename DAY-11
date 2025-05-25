@@ -1,0 +1,8 @@
+## Day 11: Disk and Filesystem
+🔹 Commands:
+
+df -h                     # Disk usage
+du -sh *                  # Folder sizes
+lsblk                     # List block devices
+mount                     # View mounted devices
+fdisk -l                  # Partition info
