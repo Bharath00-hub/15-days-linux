@@ -1,9 +1,29 @@
 ## Day 2: File and Directory Creation
 
-🔹 Commands:
+1. Creating and Deleting Files and Folders
+bash
+Copy
+Edit
+touch filename.txt              # Create empty file
+echo "Hello Linux" > file.txt   # Create file with text
+mkdir myfolder                  # Create folder
+rm filename.txt                 # Delete file
+rmdir myfolder                  # Delete empty folder
+rm -r myfolder                  # Delete folder with contents
 
-touch file.txt            # Create a file
-mkdir myfolder            # Create a directory
-ls -l                     # Long listing format
-ls -a                     # Show hidden files
-tree                      # View directory tree (install with sudo apt install tree)
+
+🗃️ 2. Organizing Data with Directories
+mkdir -p project/src/utils      # Create nested folders
+mv file.txt project/            # Move file to folder
+mv oldname.txt newname.txt      # Rename file
+cp file.txt backup.txt          # Copy file
+cp -r project/ project_backup/  # Copy folder with content
+
+
+📍 3. Absolute vs Relative Paths
+Absolute path:
+cd /home/username/Documents/
+
+
+Relative path:
+cd ../Downloads/
