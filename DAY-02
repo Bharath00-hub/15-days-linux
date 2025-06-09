@@ -1,9 +1,7 @@
 ## Day 2: File and Directory Creation
 
 1. Creating and Deleting Files and Folders
-bash
-Copy
-Edit
+
 touch filename.txt              # Create empty file
 echo "Hello Linux" > file.txt   # Create file with text
 mkdir myfolder                  # Create folder
@@ -13,6 +11,7 @@ rm -r myfolder                  # Delete folder with contents
 
 
 🗃️ 2. Organizing Data with Directories
+
 mkdir -p project/src/utils      # Create nested folders
 mv file.txt project/            # Move file to folder
 mv oldname.txt newname.txt      # Rename file
@@ -21,6 +20,7 @@ cp -r project/ project_backup/  # Copy folder with content
 
 
 📍 3. Absolute vs Relative Paths
+
 Absolute path:
 cd /home/username/Documents/
 
