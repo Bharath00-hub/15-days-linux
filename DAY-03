@@ -1,10 +1,56 @@
 ## Day 3: File and Directory Management
 
-🔹 Commands:
+## 🗂️ 1. Copying, Moving, and Renaming Files
 
-cp file1 file2            # Copy file
-cp -r dir1 dir2           # Copy directory recursively
-mv old new                # Rename or move files
-rm file                   # Delete file
-rm -r folder              # Delete directory recursively
-rm -rf *                  # ⚠️ Delete everything (dangerous)
+| Command     | Description                      | Example                                      |
+|-------------|----------------------------------|----------------------------------------------|
+| `cp`        | Copy files/directories           | `cp file1.txt file2.txt`                     |
+| `cp -r`     | Copy directories recursively     | `cp -r dir1/ dir2/`                          |
+| `mv`        | Move or rename files/directories | `mv old.txt new.txt` (rename)<br>`mv file.txt /home/user/Documents/` (move) |
+
+> ✅ **Tip:** Use `-i` with `cp` or `mv` to confirm before overwriting:
+> ```bash
+> cp -i file1.txt file2.txt
+> ```
+
+---
+
+## 🗑️ 2. Deleting Files and Folders Safely
+
+| Command     | Description                      | Example                   |
+|-------------|----------------------------------|---------------------------|
+| `rm`        | Remove files                     | `rm file.txt`             |
+| `rm -r`     | Remove directories recursively   | `rm -r folder/`           |
+| `rm -i`     | Ask confirmation before deleting | `rm -i file.txt`          |
+| `trash`     | Move to trash (if available)     | `trash file.txt`          |
+
+> 🛡️ **Tip:** Use `trash-cli` to avoid permanent deletion by mistake.
+
+---
+
+## 🗃️ 3. Creating Backups Manually
+
+| Task                    | Command                            |
+|-------------------------|------------------------------------|
+| Simple file copy        | `cp file.txt file_backup.txt`      |
+| Create archive          | `tar -cvf backup.tar folder/`      |
+| Archive with compression| `tar -czvf backup.tar.gz folder/`  |
+| Extract archive         | `tar -xzvf backup.tar.gz`          |
+
+> 💡 **Backup Tip:** Store backups on a different disk or cloud.
+
+---
+
+## 📁 4. Best Practices for Organizing Files
+
+- ✅ Use folders to separate content types:  
+  `~/Documents`, `~/Downloads`, `~/Projects`, etc.
+- 🗓️ Add dates to filenames:  
+  `report_2025-06-11.txt`
+- 🧹 Regularly remove unused files and backups
+- 🔍 Use `ls` before any `rm` command to review contents
+
+---
+
+📌 _End of Day 3: Now you’re managing your files like a Linux pro!_
+
