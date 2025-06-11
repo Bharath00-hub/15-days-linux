@@ -15,20 +15,4 @@
 > 🔎 Use `/search-term` inside `less` to search in the file  
 > Press `q` to quit `less` or `more`
 
----
-
-## 🔁 2. Redirecting Output To and From Files
-
-| Task                         | Command Example                          |
-|------------------------------|------------------------------------------|
-| Redirect command output      | `ls > output.txt`                        |
-| Append to file               | `echo "new line" >> file.txt`            |
-| Read file as input to command| `sort < file.txt`                        |
-| Redirect error messages      | `command 2> error.log`                   |
-| Redirect both output + error | `command > out.log 2>&1`                 |
-
-> 🧠 `>` overwrites, `>>` appends
-
----
-
 📌 _End of Day 4: You're now equipped to view and redirect file content efficiently in Linux!_
