@@ -1,10 +1,36 @@
 ## Day 9: File Compression & Archiving
 
-🔹 Commands:
+## 📁 1. Understanding Archive Formats
 
-tar -cvf archive.tar file1 file2     # Create tar
-tar -xvf archive.tar                 # Extract tar
-gzip file                            # Compress
-gunzip file.gz                       # Decompress
-zip file.zip file.txt                # Create zip
-unzip file.zip                       # Extract zip
+Common archive formats:
+- `.tar` – Archive (no compression)
+- `.gz`, `.gzip` – Compressed file
+- `.tar.gz`, `.tgz` – Compressed archive
+- `.zip` – Compressed archive (cross-platform)
+
+---
+
+## 📦 2. Creating and Extracting Archives
+
+### 🗃️ Create `.tar` Archive
+
+tar -cvf archive.tar file1 file2 folder/
+
+
+📂 Extract .tar Archive
+tar -xvf archive.tar
+
+📦 Create .tar.gz Archive (with compression)
+tar -czvf archive.tar.gz folder/
+
+📂 Extract .tar.gz Archive
+tar -xzvf archive.tar.gz
+
+🗜️ 3. Compressing Files and Directories
+
+📌 Using gzip (compress single file)
+gzip file.txt
+gunzip file.txt.gz
+📌 Using zip (for multiple files)
+zip archive.zip file1 file2 folder/
+unzip archive.zip
