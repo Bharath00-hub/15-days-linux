@@ -1,9 +1,34 @@
 ## Day 4: Viewing File Contents
 
-🔹 Commands:
 
-cat file.txt              # Show content
-less file.txt             # View with scroll
-head file.txt             # First 10 lines
-tail file.txt             # Last 10 lines
-tail -f /var/log/syslog   # Real-time log view
+## 📖 1. Viewing Files Using `cat`, `less`, `more`, `head`, and `tail`
+
+| Command       | Description                              | Example                       |
+|---------------|------------------------------------------|-------------------------------|
+| `cat`         | Displays the full file content           | `cat file.txt`                |
+| `less`        | Opens file one page at a time (scroll)   | `less file.txt`               |
+| `more`        | Similar to `less`, but older             | `more file.txt`               |
+| `head`        | Shows the first 10 lines by default      | `head file.txt`               |
+| `tail`        | Shows the last 10 lines by default       | `tail file.txt`               |
+| `tail -f`     | Live view of file updates (e.g., logs)   | `tail -f /var/log/syslog`     |
+
+> 🔎 Use `/search-term` inside `less` to search in the file  
+> Press `q` to quit `less` or `more`
+
+---
+
+## 🔁 2. Redirecting Output To and From Files
+
+| Task                         | Command Example                          |
+|------------------------------|------------------------------------------|
+| Redirect command output      | `ls > output.txt`                        |
+| Append to file               | `echo "new line" >> file.txt`            |
+| Read file as input to command| `sort < file.txt`                        |
+| Redirect error messages      | `command 2> error.log`                   |
+| Redirect both output + error | `command > out.log 2>&1`                 |
+
+> 🧠 `>` overwrites, `>>` appends
+
+---
+
+📌 _End of Day 4: You're now equipped to view and redirect file content efficiently in Linux!_
