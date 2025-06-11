@@ -54,8 +54,6 @@ Welcome to the **15 Days of Linux** challenge! This repository is designed to he
 
 - Searching for files using `find` and `locate`
 - Searching content inside files using `grep`
-- Filtering and highlighting search results
-- Real-life use cases like log searches and file audits
 
 ---
 
