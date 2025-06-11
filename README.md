@@ -38,7 +38,6 @@ Welcome to the **15 Days of Linux** challenge! This repository is designed to he
 
 - Viewing files using `cat`, `less`, `more`, `head`, and `tail`
 - Redirecting output to and from files
-- Combining multiple commands to inspect logs or documents
 
 ---
 
