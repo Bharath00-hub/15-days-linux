@@ -1,8 +1,63 @@
 ## Day 5: File Permissions
 
-🔹 Commands:
 
-ls -l                     # View file permissions
-chmod +x script.sh        # Make file executable
-chmod 755 file            # Set rwxr-xr-x permissions
-chown user:group file     # Change file ownership
+## 🔐 1. Linux File Permission Model: Read, Write, Execute
+
+Each file or directory in Linux has three sets of permissions:
+- **User (u)** – the owner of the file
+- **Group (g)** – users in the file’s group
+- **Others (o)** – everyone else
+
+Permission types:
+- `r` = Read
+- `w` = Write
+- `x` = Execute
+
+### 🔍 View permissions
+ls -l filename
+Example output:
+-rwxr-xr--
+Explanation:
+User: rwx → read, write, execute
+
+Group: r-x → read, execute
+
+Others: r-- → read only
+
+⚙️ 2. Understanding chmod, chown, and umask
+Command	Description
+chmod +x file.sh	Add execute permission to file
+chmod 755 file.sh	Set rwxr-xr-x permissions
+chown user:group file.txt	Change file owner and group
+chgrp groupname file.txt	Change group only
+umask	Show current default permission mask
+
+ℹ️ Notes:
+chmod changes permission
+
+chown changes file ownership
+
+umask affects default permissions for newly created files
+
+📜 3. Making Scripts Executable
+To allow a script to run directly:
+chmod +x myscript.sh
+./myscript.sh
+
+If the script is not executable:
+bash myscript.sh
+or
+sh myscript.sh
+
+💡 Use chmod +x only once per script to make it executable.
+
+👥 4. Managing User and Group Ownership
+
+🔍 Check ownership:
+-ls -l file.txt
+👑 Change ownership:
+-sudo chown username:groupname file.txt
+👥 Change group only:
+-sudo chgrp groupname file.txt
+
+🔐 Assigning correct ownership ensures proper access and file security.
