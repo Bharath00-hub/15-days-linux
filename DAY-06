@@ -1,8 +1,27 @@
 ## Day 6: Searching and Finding Files
+## 🔎 1. Searching for Files Using `find` and `locate`
 
-🔹 Commands:
+### 📂 Using `find`
 
-find . -name "*.log"      # Find all .log files
-locate passwd             # Locate files (run sudo updatedb first)
-grep "error" logfile      # Search keyword in file
-grep -r "main()" .        # Recursive search
+find /path -name "filename"
+
+Example	Description
+find . -name "*.txt"	Find all .txt files in current directory
+find /home -type d -name "project"	Find directories named "project"
+find / -size +10M	Find files larger than 10MB
+
+📁 Using locate (requires updated database)
+locate filename
+
+Command	Description
+locate file.txt	Fast search for known files
+updatedb	Refresh locate’s search database
+
+📄 2. Searching Content Inside Files Using grep
+
+grep "search_term" filename
+
+Example	Description
+grep "error" logfile.log	Find lines with "error" in a file
+grep -i "hello" file.txt	Case-insensitive search
+grep -r "TODO" .	Recursively search all files in current directory
