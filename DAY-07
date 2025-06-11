@@ -1,9 +1,22 @@
 ## Day 7: System Information
 
-🔹 Commands:
+## 🖥️ 1. Checking Basic System Information
 
-uname -a                  # Kernel info
-hostname                  # System hostname
-uptime                    # System up time
-top                       # Running processes
-free -h                   # Memory usage
+uname -a             # Show kernel and system information
+hostname             # Show system hostname
+hostnamectl          # Detailed hostname and OS info
+uptime               # Show how long the system has been running
+
+🧠 2. Monitoring CPU and Memory Usage
+
+top                  # Real-time system process monitoring
+htop                 # Enhanced version of top (install if needed)
+sudo apt install htop    # Install htop on Debian/Ubuntu
+sudo yum install htop    # Install htop on RHEL/CentOS
+free -h              # Display memory usage in human-readable format
+
+💽 3. Checking Disk Space and Hardware
+
+df -h                # Show disk space usage
+du -sh *             # Show size of directories and files
+lsblk                # List block storage devices
