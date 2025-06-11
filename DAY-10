@@ -1,9 +1,37 @@
 ##  Day 10: User Management
 
-🔹 Commands:
+## 👤 1. Understanding Users and Groups
 
-whoami                    # Current user
-id                        # User ID and group ID
-sudo adduser testuser     # Add new user
-sudo passwd testuser      # Set password
-sudo deluser testuser     # Remove user
+- Linux uses users and groups for access control.
+- Every user has a UID; every group has a GID.
+- Files and directories are owned by a user and a group.
+
+---
+
+## ➕ 2. Adding and Deleting Users
+
+### 👥 Add a new user
+
+sudo adduser username             # Debian/Ubuntu
+sudo useradd -m username          # RHEL/CentOS
+
+❌ Delete a user
+
+sudo deluser username             # Debian/Ubuntu
+sudo userdel -r username          # RHEL/CentOS
+
+
+🔐 3. Setting Passwords and Permissions
+
+#Set or change user password
+
+sudo passwd username
+
+#Change file ownership
+
+sudo chown user:group file.txt
+
+#Change permissions
+
+chmod 755 script.sh
+chmod u+x filename.sh
