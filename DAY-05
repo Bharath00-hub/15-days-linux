@@ -15,6 +15,7 @@ Permission types:
 
 ### 🔍 View permissions
 ls -l filename
+
 Example output:
 -rwxr-xr--
 Explanation:
@@ -41,6 +42,7 @@ umask affects default permissions for newly created files
 
 📜 3. Making Scripts Executable
 To allow a script to run directly:
+
 chmod +x myscript.sh
 ./myscript.sh
 
@@ -54,10 +56,10 @@ sh myscript.sh
 👥 4. Managing User and Group Ownership
 
 🔍 Check ownership:
--ls -l file.txt
+---->ls -l file.txt
 👑 Change ownership:
--sudo chown username:groupname file.txt
+---->sudo chown username:groupname file.txt
 👥 Change group only:
--sudo chgrp groupname file.txt
+---->sudo chgrp groupname file.txt
 
 🔐 Assigning correct ownership ensures proper access and file security.
