@@ -1,8 +1,49 @@
 ## Day 8: Package Management (Debian-based)
 
-🔹 Commands:
+## 📦 1. Introduction to Package Managers
 
-sudo apt update           # Update package lists
-sudo apt upgrade          # Upgrade packages
-sudo apt install tree     # Install package
-sudo apt remove package   # Uninstall package
+Different Linux distributions use different package managers:
+
+| Distribution     | Package Manager |
+|------------------|------------------|
+| Ubuntu/Debian    | `apt`            |
+| RHEL/CentOS 7    | `yum`            |
+| RHEL/CentOS 8+   | `dnf`            |
+| Fedora           | `dnf`            |
+
+---
+
+## 🛠️ 2. Installing, Updating, and Removing Software
+
+### ✅ Installing Software
+
+sudo apt install package-name     # Debian/Ubuntu
+sudo yum install package-name     # CentOS 7
+sudo dnf install package-name     # CentOS 8+, Fedora
+🔄 Updating Software
+
+sudo apt update && sudo apt upgrade     # Ubuntu/Debian
+sudo yum update                         # CentOS 7
+sudo dnf upgrade                        # CentOS 8+, Fedora
+
+❌ Removing Software
+
+sudo apt remove package-name       # Debian/Ubuntu
+sudo yum remove package-name       # CentOS 7
+sudo dnf remove package-name       # CentOS 8+, Fedora
+
+🌐 3. Updating System Repositories
+
+🗂️ Update Package List
+sudo apt update           # Debian/Ubuntu
+sudo yum makecache        # CentOS 7
+sudo dnf makecache        # CentOS 8+, Fedora
+
+🔗 4. Handling Dependencies
+
+sudo apt --fix-broken install     # Debian/Ubuntu
+Clean unused packages:
+
+sudo apt autoremove              # Debian/Ubuntu
+sudo yum autoremove              # CentOS 7
+sudo dnf autoremove              # CentOS 8+, Fedora
