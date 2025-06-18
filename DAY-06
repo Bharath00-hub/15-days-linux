@@ -6,9 +6,9 @@
 find /path -name "filename"
 
 Example	Description
-find . -name "*.txt"	Find all .txt files in current directory
-find /home -type d -name "project"	Find directories named "project"
-find / -size +10M	Find files larger than 10MB
+find . -name "*.txt"	                   Find all .txt files in current directory
+find /home -type d -name "project"	     Find directories named "project"
+find / -size +10M	                       Find files larger than 10MB
 
 📁 Using locate (requires updated database)
 locate filename
