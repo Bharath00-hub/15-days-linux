@@ -1,6 +1,6 @@
 ## Day 9: File Compression & Archiving
 
-## 📁 1. Understanding Archive Formats
+ 1. Understanding Archive Formats
 
 Common archive formats:
 - `.tar` – Archive (no compression)
@@ -10,14 +10,14 @@ Common archive formats:
 
 ---
 
-## 📦 2. Creating and Extracting Archives
+ 2. Creating and Extracting Archives
 
-### 🗃️ Create `.tar` Archive
+ ---Create `.tar` Archive
 
 tar -cvf archive.tar file1 file2 folder/
 
 
-📂 Extract .tar Archive
+---Extract .tar Archive
 tar -xvf archive.tar
 
 📦 Create .tar.gz Archive (with compression)
