@@ -1,0 +1,47 @@
+#  Day 15: Shell Scripting – Variables, Input, Conditions & Loops
+
+
+##  1. Variables
+
+#!/bin/bash
+name="Bharath"
+echo "Welcome, $name!"
+
+ 2. User Input
+
+#!/bin/bash
+echo "Enter your name:"
+read user_name
+echo "Hello, $user_name!"
+
+ 3. If-Else Condition
+
+#!/bin/bash
+echo "Enter a number:"
+read num
+if [ $num -gt 10 ]
+then
+  echo "Number is greater than 10."
+else
+  echo "Number is 10 or less."
+fi
+
+
+🔹 4. For Loop
+
+#!/bin/bash
+for i in {1..5}
+do
+  echo "Iteration $i"
+done
+
+
+🔹 5. While Loop
+
+#!/bin/bash
+count=1
+while [ $count -le 3 ]
+do
+  echo "Count is $count"
+  ((count++))
+done
