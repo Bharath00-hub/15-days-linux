@@ -127,9 +127,17 @@ Welcome to the **15 Days of Linux** challenge! This repository is designed to he
 - Script examples for automation
 
 ---
+### Day 15: Scripting Advanced – Input, Loops & Conditions**
+- Declaring variables
+- Accepting user input with `read`
+- Using `if`, `else`, and condition checks
+- Implementing `for` and `while` loops
 
+---
 
-## 📺 YouTube Channel ID : UCsPe6v5QZs-R_4NTFpy9N4Q (Mr_JH)
+## 
+📺 **Channel Name**: Mr_JH
+📺 YouTube Channel ID : UCsPe6v5QZs-R_4NTFpy9N4Q 
 
 Each day will have a dedicated video where I walk through all the topics with live demonstrations and explanations. Subscribe to the channel and follow along!
 
