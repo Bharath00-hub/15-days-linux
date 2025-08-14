@@ -88,7 +88,6 @@ Welcome to the **15 Days of Linux** challenge! This repository is designed to he
 - Understanding users and groups
 - Adding and deleting users
 - Setting passwords and permissions
-- Assigning sudo privileges
 
 ---
 
